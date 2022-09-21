@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stacey's Prework Website</title>
+        <link rel="stylesheet" href="/CSS/style.css"/>
+        <style>
+            body{
+                background-color: bisque;
+            }
+            h1{
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font: weight 500px;
+                text-align: center;
+                text-decoration: underline;
+            }
+            h2{
+                color: darkmagenta;
+            }
+            h3{
+                color: darkgreen;
+            }
+            h4{
+                text-decoration: underline;
+            }
+            p{
+                color: midnightblue;
+                font-size: 16px;
+            }
+            a:link {
+                color: purple; 
+                background-color: transparent; 
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: blue;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
+            #navigation{
+                background-color: aquamarine;
+                color:rgb(2, 31, 31);
+                padding: 10px;
+                text-align:center;
+            }
+
+            .favList{
+                color: blue;
+            }
+            #div1{
+                background-color: cadetblue;
+            }
+
+            #div2{
+                background-color: darkgray;
+            }
+
+            #div3{
+                background-color: darkseagreen;
+            }
+
+            #div4{
+                background-color: lavender;
+            }
+            
+            #div1, #div2, #div3, #div4 {
+                border-style: dashed ;
+            }
+            form{
+                padding: 15px;
+                background-color: aliceblue;
+                border-style: solid;
+                font-weight: 500px;
+            }
+
+            input[type=button]{
+                color: black;
+                background-color: burlywood;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Stacey</h1>
+        <h2>Hello! I'm Stacey.</h2>
+        <h3>Welcome to my website!</h3>
+        <h5>Click on the "About Me" or "Notes" links below to learn more about me and what I've been learning during this assignment. I'm fairly new to coding and am looking forward to this journey. I am really looking forward to applying what I'm learning into project examples.</h5>
+            <nav id="navigation">
+                <a href="file:///Users/corcoding/Desktop/Prework//pages/about.html">&#9830;About</a>
+                <a href="file:///Users/corcoding/Desktop/Prework//pages/notes.html">&#9830;Notes</a>
+            </nav>
+        <h4>Favorite Things:</h4>
+            <p>I enjoy all things plants, including taking care of indoor and outdoor plants. Every spring I plant a garden. Gardening is super therapeutic, minus the mosquitoes of course. Hibiscus flowers are one of my favorite flowers. You can use the dried flowers to make a drink. Be warned, you'll need to add a sweetener because when you just boil the petals it can have a very bitter flavor. Please see below for a link to the original image:</p>
+            <p><a id="navigation" href = https://lazyflora.com/blogs/news/hibiscus-care-instructions>Link to original image</a></p>
+
+            <img src="https://cdn.shopify.com/s/files/1/1938/3931/articles/image1_2_2450x.png?v=1530718999" alt="Yellow Hibiscus Flower" width="1024" height="768"/>
+
+        <div id="div1">
+            <h4>Favorite flowers</h4>
+                <p>Here's a list of some of my other favorite flowers.</p>
+                <ul>
+                    <li class="favList">Gladiolous</li>
+                    <li class="favList">Roses</li>
+                    <li class="favList">Orchids</li>
+                    <li class="favList">Tulips</li>
+                </ul>
+        </div>
+        
+        <div id="div2">
+            <h4>Favorite foods</h4>
+                <p>Here's a list of some of my favorite foods</p>
+                <ul>
+                    <li class="favList">Pizza</li>
+                    <li class="favList">Steak</li>
+                    <li class="favList">Caesar Salad</li>
+                    <li class="favList">Mango</li>
+                    <li class="favList">Ground Cherries</li>
+                </ul>
+        </div>
+
+        <div id="div3">
+            <h4>Favorite movies</h4>
+                <p>Here's a list of some of my favorite movies</p>
+                <ul>
+                    <li class="favList">Grease</li>
+                    <li class="favList">Ferngully</li>
+                    <li class="favList">The Blind Side</li>
+                    <li class="favList">Good Fellas</li>
+                </ul>
+        </div>
+
+        <div id="div4">
+            <h4>Favorite actors</h4>
+                <p>Here's a list of some of my favorite actors</p>
+                <ul>
+                    <li class="favList">Robert Downey Jr.</li>
+                    <li class="favList">Julia Roberts</li>
+                    <li class="favList">Denzel Washington</li>
+                    <li class="favList">Johnny Depp</li>
+                </ul>
+        </div>
+          <div class="relative">
+          This div element has position: relative;
+          </div>
+          
+        <h2>What are some of your favorite things?</h2>
+            <form>
+                <h3>Add your favorite to the form below:</h3>
+                Favorite flower: <br>
+                <input type="text" name="flowername"><br>
+                Favorite food:<br>
+                <input type="text" name="foodname"><br>
+                Favorite movie:<br>
+                <input type="text" name="moviename"><br>
+                Favorite actor:<br>
+                <input type="text" name="actorname"><br>
+                <input type="button" name="submit" value="submit">
+            </form>
+    </body>
+</html>

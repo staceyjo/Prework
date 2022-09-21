@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type= "text/css" href="/CSS/style.css"/>
+        <title>Notes</title>
+    </head>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h1{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font: weight 500px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        h2{
+            color: darkmagenta;
+        }
+        h3{
+            color: darkgreen;
+        }
+        h4{
+            text-decoration: underline;
+        }
+        p{
+            color: midnightblue;
+            font-size: 16px;
+        }
+
+        a:link {
+            color: purple; 
+            background-color: transparent; 
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: blue;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        #div1{
+            background-color: cadetblue;
+        }
+
+        #div2{
+            background-color: darkgray;
+        }
+
+        #div3{
+            background-color: darkseagreen;
+        }
+
+        #div4{
+            background-color: lavender;
+        }
+        
+        #div1, #div2, #div3, #div4{
+            border-style: dashed;
+        }
+    </style>
+    <body>
+        <link rel="stylesheet" href="/CSS/style.css"/>
+        <!--Content of my webpage-->
+        <!-- There are 6 header tags. The higher the number the smaller the text -->
+        <h1>Prework</h1>
+        <h2>Notes and Exercises:</h2>
+        <nav>
+            <a href="file:///Users/corcoding/Desktop/Prework/index.html">Back to main page</a>
+        </nav>
+            <p>I created this website as an exercise for the required Prework Assignment due on Wednesday, September 21 before 1:00 PM EST. This page allows me to practice rendering my webpage by opening in the browser from the file path or by turning the page on by selecting the Go Live icon in VS Code. The video from the Day 1 training (Slide 18 shows right clicking to open in the broswer, but I may need to download an outside extension to accomplish this, unless there is a shortcut I'm not aware of.) Below are my notes from the presentation to practice the HTML boilerplate elements. I tend to keep my notes in VS Code so they are all in one place. It allows me to read through an exercise and practice coding in real time. I can also glance back at my notes.</p>
+        <h4>Paragraphs</h4>
+            <p>The p tag is used to create paragraphs. After creating a paragraph tag and type lorem, it will place dummy Latin text in this place. See below for example:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro commodi quam unde quae beatae quibusdam ipsam cumque alias maiores, tempore iusto, temporibus impedit mollitia nostrum, eaque totam quos possimus sint!</p>
+            <p>Now we know why we occasionally see this dummy texts on a website: It was a placeholder the programmer used and may have forgetten to replace with actual text.</p>
+        <h4>Comments?</h4>
+            <p>What you cannot see on this page, are the comments I left in VS code.
+        <!-- This is a comment --> </p>
+        <h4>HTML Image Source Tag</h4>
+            <p>First, Google an image that you want to use. Then open an image tag to add an image you want to use or an alternate image source in case the original image doesn't display properly.</p>
+            <p>The image I'm including is a Hibuscus flower from a site called Lazy Flora. Remember to ALWAYS include the height and width of the image so the image doesn't flicker when it loads.The most common is 1024px wide by 768px high- but all websites should be responsive.</p>
+        <img src="https://cdn.shopify.com/s/files/1/1938/3931/articles/image1_2_2450x.png?v=1530718999" alt="Yellow Hibiscus Flower" width="1024" height="768"/>
+        <h4>HTML Anchor Tags</h4>
+            <p>We use hypertext reference anchor tags to add a link to the text or image on a html page by typing "a href = #" and then the closing anchor tag. The # is just a placeholder for the website</p>
+            <a href = https://lazyflora.com/blogs/news/hibiscus-care-instructions>Link to Lazy Flora</a>
+        <h4>HTML Input Tags</h4>
+            <p>HTML input tags allow you to input words, like when you're filling out a form. Use the form tag, then create an input field using the input tag</p>
+        <h4>HTML Lists</h4>
+            <p>Lists can be ordered or unordered. To make an unordered list, with bullet points, use the ul open and closing tag. </p>
+            <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+            </ul>
+            <p>To link unordered lists use the a href tags inside of the li tags, as shown below:</p>
+            <ul>
+                <li> <a href="#">List item 1 link</a></li>
+                <li> <a href="#">List item 2 link</a></li>
+                <li> <a href="#">List item 3 link</a></li>
+            </ul>
+            <p>To make an ordered list, with numbers, use the ol opening and closing tags</p>
+            <ol>
+                <li>List item 4</li>
+                <li>List item 5</li>
+                <li>List item 6</li>
+            </ol>
+
+        <h4>Special Characters</h4>
+            <p>For special characters to show up, you need to type them a certain way in your code by using an amperstand. For example the copyright symbol: &copy;, &lt;, &gt;, &amp;, &nbsp;</p>
+        <h4>Bold</h4>
+            <p>You can bold text between tags by using the bold open and closing tags
+                <b>This text is bold</b>
+            </p>
+        <h4>Italic</h4>
+            <p>You can italicize text between tags by using the italicize open and closing tags 
+                <i>This text is italicized</i>
+            </p>
+        <h4> Div tags</h4>
+            <p>Div tags allow you to divide the content of the page into sections and apply styles to that section in the head or the body. Think of it as a container that allows you to style different sections. When you wrap elements in a div tag it will look like a block contatiner. It is recommended to set the style in the head. Set the name of the div class. Don't forget to use curly braces to contain the style formatting.</p>
+        <style>
+            .div1 {
+                border: 5px outset blue;
+                background-color: aqua;
+                text-align: center;
+            }
+
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 50%;
+            }
+        </style>
+        <div class="div1">
+            <h5>This is a headline in a div element</h5>
+            <p>This is some paragraph text in a div element</p>
+        </div>
+            <p>This text is contained outside of the div element</p>
+        <h4>Span Tags</h4>
+            <p>Span tags are used to wrap the content within your HTML element. It can be helpful if you need to alter just a part of a text</p>
+            <p> In this example, <span style="color: blue">the color of the text is now blue"</span>Pretty cool, huh?</p>
+        <h4>Line breaks</h4>
+            <p>Use the br tag to create a line break within a header or paragraph like this<br> This is a line break. <br> There is no closing tag for a line break. </p>
+        <h4>HTML Cheatsheet</h4>
+            <p> <a href="https://htmlcheatsheet.com/">htmlcheatsheet.com</a> </p>
+
+        <h4>Tables</h4>
+            <p>You can create a table row to enter the table heading or the table data. I included the styling for the table row, table header and  table data within the style tag</p>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Location</th>
+                    <th>Gender</th>
+                </tr>
+                <tr>
+                    <td>Stacey</td>
+                    <td>Remote</td>
+                    <td>Female</td>
+                </tr>
+            </table>
+        <h4>Multimedia</h4>
+            <p>Multimedia types are sound, music, video, movies and animation. Video formats include: MPEG (.mpg or .mpeg), AVI (.avi), Quicktime(.mov), Flash (.swf or .flv) and MPEG-4 or MP4 (.mp4)</p>
+            <p>There are video attributes you can add: control, autoplay and width and height. Control adds the video control buttons like "play","pause" and "volume". Autoplay starts the video automatically. It is recommended to always include the width and height so the video doesn't flicker. Use the Google Chrome (or Safari) browser to best support the video format.</p>
+            <p>Use the HTML video tag to specify the video to be added. Use the source tag to define the media resource for the video or audio tag. If the 1st source doesn't play, the second will.</p>
+        <h4>Embed Youtube Video</h4>
+            <p>To embed a YT video in the body: 1. Find the video you want to use 2. Click on the Share button 3. Click embed 4. Copy the iframe tag and include it in your webpage 5. Set the width and height attributes for the video player. The video below was not originally set within a div tag.</p>
+            <div>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/M8-K0RCgobE" 
+                    title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        <h4>Navigation Bar Link</h4>
+            <p>When your page has more than one website to link out, it may be helpful to use a naviagtion bar or menu. This can be done in two ways: Use a list for a vertical navigation bar OR use the nav tag for a horizontal navigation bar. Below is a horizonal nav bar:</p>
+            <nav>
+                <a href="#">Menu item 1</a>
+                <a href="#">Menu item 2</a>
+                <a href="/Users/corcoding/Desktop/Prework/pages/stories.html">Stories</a>
+            </nav>
+            <p>Here is an unordered list and menu item links as a vertical nav bar:</p>
+            <ul>
+                <li><a href="#">Menu item 3</a></li>
+                <li><a href="#">Menu item 4</a></li>
+                <li><a href="/Users/corcoding/Desktop/Prework/pages/stories.html">Stories</a></li>
+            </ul>
+<!--DOCTYPE html>
+<html>
+    <head>
+        <title>Storytime</title>
+    </head>
+    <body>
+        <h1>Hello, I'm Stacey</h1>
+        <h3>Stories</h3>
+        <p>You have to include the full file path in order to link the pages correctly. For some reason, the video tutorial only linked /pages/Stories.html and it worked, but I received an error message if I didn't include the full file path.</p>
+    </body>
+</html> -->
+        <h3>Cascading Style Sheets</h3>
+            <p>We use CSS language to style the HTML pages. CSS describes how the elements should appear on the page. It allows you to add colors and font styles and a layout to the page.</p>
+        <h4>CSS Declaration</h4>
+            <p>CSS declaration consists of a selector the opening curly brace, property and a value. For example: h1 is a selector, it indicates the name of the tag you want to change the appearance of. It will affect all the tags with that name. The property is the change you make to the tag. For example the color, font type and font size are properties. Each property type is assigned a value. For example, red is a value of the property color. After adding multiple properties and values, close with a curly brace.</p>
+            <p>Ex: h1{color:red, font type:comic sans, size 16pt}</p>
+        <h4>Add CSS to HTML</h4>
+            <p>To add CSS, add a style tag within the HTML document inside of the HEAD tag, before the body of the code.</p>
+            <p>You can manipulate the properties for things like the color, font style(italicize), font weight (bold), font decoration(overline, line-through, underline or none. You can even underline and specify a color with underline blue). You can also customize the font size, the letter spacing, word spacing, the line height  and the text-align. You can also transform the text using text-transform: capitalize, uppercase lowercase, or none.</p>
+            <p>The line height property sets the height of the lines in the tag withouth adjusting the size of the font. Curious to know what this looks like. Text align will align the text to the left, right or center depending on what you delegate.</p>
+            <p>You can also customize fonts by lengths and percentages. For example: em for the calculated size of a font(2em is twice the size of the current font size), px for pixels, pt for points, % for percentages, pc, cm for centimeters, mm for millimeters, in for inches </p>
+        <h4>CSS Colors</h4>
+            <p>CSS has access to over 16 million colors! Although there are only 17 preferred color names: They are aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, and yellow.</p>
+            <p>CSS colors can also be hexidecimal or decimal. The hexidecimal or hex code looks like this: #ff000. The decimal color code looks like this: rgb(255, 0,0)</p>
+            <p>The text color property is "color". The background color property is "background-color"</p>
+        <h4>Using ID Attributes </h4>
+            <p> ID attributes are used to specify a unique id for an HTML element. The id attribute points to the CSS style sheet. The id attribute value must be a unique name, since it adds style to one out of many of the same elements on a page. The name cannot be used more than once, and the name must be consistent on the CSS style sheet. Create a CSS style sheet by opening a new file called style.css. In the HTML file under the style tag, use a #theidname follower by curly braces.An id element can be used to style one pargraph to distingiush it from the other pargraphs.</p>
+        <h4>Class Attributes</h4>
+            <p>A class name can be used by multiple HTML elements (group).The style for a class name will be applied to all the elements that have that class name.</p>
+    </body>
+</html>

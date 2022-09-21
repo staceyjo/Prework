@@ -1,0 +1,93 @@
+    body{
+        background-color: bisque;
+    }
+    h1{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font: weight 500px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h2{
+        color: darkmagenta;
+    }
+    h3{
+        color: darkgreen;
+    }
+    h4{
+        text-decoration: underline;
+    }
+    p{
+        color: midnightblue;
+        font-size: 16px;
+    }
+    a:link {
+        color: purple; 
+        background-color: transparent; 
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    #navigation{
+        background-color: aquamarine;
+        color:rgb(2, 31, 31);
+        padding: 10px;
+        text-align:center;
+    }
+
+    .favList{
+        color: blue;
+    }
+    #div1{
+        background-color: cadetblue;
+    }
+
+    #div2{
+        background-color: darkgray;
+    }
+
+    #div3{
+        background-color: darkseagreen;
+    }
+
+    #div4{
+        background-color: lavender;
+    }
+    
+    #div1, #div2, #div3, #div4 {
+        border-style: dashed ;
+    }
+    form{
+        padding: 15px;
+        background-color: aliceblue;
+        border-style: solid;
+        font-weight: 500px;
+    }
+
+    input[type=button]{
+        color: black;
+        background-color: burlywood;
+        padding: 5px;
+    }
+    div.relative {
+        position: relative;
+        left: 30px;
+        border: 3px solid #73AD21;
+      }

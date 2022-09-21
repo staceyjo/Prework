@@ -1,0 +1,121 @@
+Notes and instructions: 
+Day 1 Objectives and Answers:
+- [ ] What is Programming and web development? 
+Programming is a discipline in the development of software programs using instructions to be executed by a computer. Programming is written by a developer or coder. 
+
+- [ ] What is software? 
+A program used by the computer
+
+- [ ] What is software engineering? 
+A discipline in the development of software
+
+- [ ] What is a program? 
+The set of instructions to be executed by a computer. The set of instructions develop game, web, system and application programs. 
+
+- [ ] Who writes those instructions? 
+The programmer/ coder/ software engineer
+
+- [ ] Why are you in this class? 
+This class for me if to learn and develop a new skill for a career transition in a field that I find both interesting and challenging, yet also rewarding. 
+
+- [ ] HTML and its use: 
+HTML stands for HyperText Markup Language and it is used to create web pages. HTML consists of a series of elements and will always have the extension .html.
+- [ ] What is a mark-up language? 
+Mark up Languages refers to a text-encoding system consisting of a set of symbols inserted in a text document to control its structure, formatting or the relationship between its parts.  Most widely used are HTML, SGML, and XML. Python is a structured markup processing tool. 
+
+- [ ] HTML Elements: 
+HTML elements make webpage context appear in a certain way. Elements consist of two parts: takes and content enclosed in the tags <h1 opening tag> Content </h1 closing tag>
+
+- [ ] Tag Anatomy: 
+1) open<h1> and closed </h1> to tell HMTL it is a tag, 2) name of the tag inside the <>: headline, paragraph, images etc. 3) the text or content to display on the webpage. Not all elements consist of an open and closed tag and some tags have additional pieces such as an attribute or an attribute value
+
+- [ ] Attributes are used to give additional information on HTML elements. Attributes are usually provided inside the opening tag. Example attributes are src, href, id and class. 
+
+- [ ] src provides url for an image, href provides the URL for a link, id provides a unique id for an element, and class provides a name to reference multiple elements
+
+?- which elements do not require an open and closed tag? Empty elements like <br> do not have a close tag, <!DOCTYPEhtml> also does not have a closing tag
+
+? What are attributes and attribute values? https://www.w3schools.com/html/html_attributes.asp  Attribute reference guide: https://www.w3schools.com/tags/ref_attributes.asp
+
+
+- [ ] HTML Boilerplate is a set of default elements to start off
+
+<!DOCTYPE html> tells the file it will contain HTML
+<html> is where all your html code is written
+
+<head> is where you include the <title> tags
+	<title> tags contain the name of the title for your site as well as where you’ll be linking stylesheets and scripts. </title>
+</head>
+<body> is where the main content of your document will live. This is where you insert all the HTML elements that will be visible in your browser
+</body>
+</html>
+
+- [ ] How to use HTML elements to create a webpage?
+1) Open a text editor 2) Type in html boilerplate, 3) create a title, 4) save the page as index.html in a folder 5) open the file with a web browser
+
+- [ ] How to add text, images and external links to your webpage in a browser
+
+- [ ] How to render your webpage in a browser
+
+Day 1 Exercise Instructions:
+    1. Create a html website
+    2. Create a level 2 heading (h2) that contains your name
+    3. Use a paragraph tag and add a couple sentences about yourself.
+    4. Use an image tag to add an image of yourself or an image that represents you.
+    5. Create a list and list 3 of your favorite things
+    Optional: link your image to a social media profile
+    6. Save the document as index.html
+    7. Download HTML Cheatsheet
+
+DAY 1 Homework: 
+	1. Create an HTML Website about yourself. Your name in the title to appear in browser page
+    2. A level 2 heading that includes your name
+    3. A level 3 heading that includes a welcome message
+    4. A paragraph with a few sentences about yourself
+    5. An image that represents you
+    6. A link of that image to an external page
+    7. A list, ordered or unordered (Can be things you find interesting.)
+
+Day 2 Exercises:
+    1) Add navigation to your webpage
+    2) Create a separate HTML page, example about.html.
+    3) Link the two web pages
+    4) Underline your name
+    5) Change the font size of all paragraph text
+    6. Change the font style of a list of three of your favorite things
+    7. Change the background color of the entire webpage
+    8. Change the color of all the anchor tags (linked text) to purple
+
+Day 2 Homework:
+    1. Add a second  page and connect the two to make a website that includes more information about you: favorite show, hobby, interesting fact
+    2. Create a nav bar and link the two pages (link on both pages)
+    3. Make sure the headings look similar
+    4. Add a table to one of the pages
+    5. Add or embed a multiple media (YT video)
+    6. Change the default color or font of headings and paragraphs
+
+Day 3 Objectives:
+    1. Use id and class selctors in CSS
+    2. Understand HTML div tags and how to style them
+    3. Understand HTML span tag and how to style it
+    4. Understand HTML form and input tag
+    5. Understand styling forms
+    6. Understand more CSS selectors, like hover and focus
+    7. Understand how and why to use external stylesheets in HTML
+    
+Day 3 Exercises
+    1. Add 2 - 3 headings to your page
+    2. Add 2 - 3 paragraphs to your page
+    3. Use CLASS and ID selectors to apply different colors to tags
+    4. Edit yout HTML page to create sections using divs
+    5. Give all divs a different background color
+    6. Give all divs a border
+    7. Create a form in the body of your main page to ask user for input, use input tag for input field
+    8. Add external css file
+
+Day 3 Homework: 
+    1. Check the file structure for your website
+    2. Create a single css file, and move styling for both pages into this file
+    3. Make sure all pages have the same styling for background color, headers, fonts and same layout/box model
+    4. Add a form on one of your pages
+    5. Use an id selector to style a paragraph on one of the pages
